@@ -7,6 +7,6 @@ use PhpParser\Node\Stmt\Return_;
 
 class ContatoController extends Controller {
     public function index() {
-        return "Contato Controller";
+        return view('contato.index');
     }
 }
