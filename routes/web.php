@@ -18,7 +18,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/contatos', [ContatoController::class,'index']);
+Route::get('/contato', [ContatoController::class, 'index']);
 
 
 
+
+
+
+// Route::get('/contato/{id?}', function ($id) {
+//     if (isset($id)) {
+//         return "contato";
+//     } else {
+//         return "contato id = " . $id;
+//     }
+// });
